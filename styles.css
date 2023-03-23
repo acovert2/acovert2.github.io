@@ -1,0 +1,24 @@
+h1 {
+    font-size: 200%;
+}
+
+body {
+    background-color: coral; 
+    font-size: 100%;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.highlight {
+    display: inline-block;
+    padding: .25em 0;
+    background: #684200;
+    color: coral;
+}
+
+a {
+    color: brown;
+}
+
+a:hover {
+    color: blue;
+}

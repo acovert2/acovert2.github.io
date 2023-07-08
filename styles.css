@@ -1,8 +1,30 @@
+@keyframes titleanim {
+    from {font-size: 200%;}
+    to {font-size: 250%;}
+}
+
 h1 {
+    display: flex;
+    justify-content: center;
     font-size: 200%;
+
+    animation-name: titleanim;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+h1:hover {
+    transform: scaleX(1.5);
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
     background-color: coral; 
     font-size: 100%;
     font-family: "Lucida Console", "Courier New", monospace;
